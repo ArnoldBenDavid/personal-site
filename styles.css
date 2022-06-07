@@ -645,4 +645,6 @@ li {
   pointer-events: auto;
   opacity:1;
 }
+  #circle{
+    visibility:hidden;
 }
