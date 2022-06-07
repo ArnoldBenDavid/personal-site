@@ -1,9 +1,16 @@
 /*****************TAG CELECTORS**********************/
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #FAFAFA;
-  font-family: sans-serif;
+  font-family: sans-serif:verdana;
   color: #000000;
+cursor: none;
 }
+
 
 hr {
   opacity: 50%
@@ -28,12 +35,42 @@ p {
 
 a {
   text-decoration: none;
-  color: none;
+  cursor: none;
 }
 
 li {
   font-size: 1.2vw;
 }
+
+
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 5px;
+  right:49%;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:red;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:0.5;
+}
+
+
+
 
 /*****************CLASS CELECTORS**********************/
 .btn {
@@ -42,6 +79,10 @@ li {
   border-style: none;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.5);
   width: 30%
+}
+
+.btn:hover{
+  cursor:none;
 }
 
 .container-fluid {
@@ -75,7 +116,31 @@ li {
 }
 
 /*****************ID CELECTORS*******#X***************/
-#logos {
+#to-top{
+  text-align: center;
+
+}
+
+#circle {
+  position: fixed;
+  z-index: 5;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: background ease-in 10ms, box-shadow ease-in 150ms, transform ease-in 150ms;
+  transform: translate3d(0, 0, 0);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+#Hi{
+  text-decoration-style: none;
+}
+
+
+#portfolio-logos{
   text-align: center;
 }
 
@@ -113,9 +178,6 @@ li {
   font-size: 1.5vw;
 }
 
-#links {
-  padding: 9vw;
-}
 
 .social-menu ul {
   position: relative;
@@ -180,15 +242,18 @@ li {
   background-color: #0077B5;
 }
 
+.links{
+  padding: 9vw ;
+  padding-bottom: 9vw;
+}
+
 /****************************media query*******************************/
 @media (max-width: 1920px) {
   body {
     background-color: none;
   }
 
-  #Arnold-Ben-David-profile-picure {
-    width: 15vw;
-  }
+
 
   h1 {
     font-weight: bold;
@@ -279,7 +344,14 @@ li {
   .social-menu ul li:nth-child(5) a:hover {
     background-color: #0077B5;
   }
+
+  #Arnold-Ben-David-profile-picure {
+    width: 15vw;
+  }
 }
+
+
+
 
 @media (max-width: 1200px) {
   body {
@@ -371,6 +443,12 @@ li {
   .social-menu ul li:nth-child(5) a:hover {
     background-color: #0077B5;
   }
+
+  .links{
+    padding: 12vw ;
+    padding-bottom: 15vw;
+  }
+
 }
 
 @media (max-width: 769px) {
@@ -474,12 +552,43 @@ li {
     padding-bottom: 5vw
   }
 
-  #links {
-    padding: 19vw 0
-  }
+
+.links{
+  padding: 16vw ;
+  padding-bottom: 29vw;
+}
+
 
   .btn {
     margin: auto;
     width: 49%
   }
+
+  .to-top {
+    background: white;
+    position: fixed;
+    bottom: 5px;
+    right: auto 0;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:9px;
+    color:red;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:0.5;
+  }
+
+
 }
