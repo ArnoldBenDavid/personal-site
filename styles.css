@@ -6,7 +6,7 @@ html{
 
 body {
   background-color: #FAFAFA;
-  font-family: sans-serif:verdana;
+  font-family: Verdana, sans-serif;;
   color: #000000;
   cursor: none;
 }
@@ -19,6 +19,7 @@ hr {
 h1 {
   font-weight: bold;
   font-size: 4.5vw;
+  font-family: Verdana, sans-serif;
 }
 
 h2 {}
