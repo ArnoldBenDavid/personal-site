@@ -6,7 +6,7 @@ html{
 
 body {
   background-color: #FAFAFA;
-  font-family: sans-serif:verdana;
+  font-family: Verdana, sans-serif;
   color: #000000;
   cursor: none;
 }
@@ -124,8 +124,8 @@ li {
 #circle {
   position: fixed;
   z-index: 1;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   background-color: #fff;
   border-radius: 50%;
   pointer-events: none;
@@ -255,25 +255,10 @@ li {
 
 /****************************media query*******************************/
 @media (max-width: 1920px) {
-  #circle {
-  position: fixed;
-  z-index: 1;
-  width: 32px;
-  height: 32px;
-  background-color: #fff;
-  border-radius: 50%;
-  pointer-events: none;
-  transition: background ease-in 10ms, box-shadow ease-in 150ms, transform ease-in 150ms;
-  transform: translate3d(0, 0, 0);
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-  }
-
   body {
     background-color: none;
   }
-
-
-
+  
   h1 {
     font-weight: bold;
     font-size: 4.5vw;
@@ -373,7 +358,7 @@ li {
   background: white;
   position: fixed;
   bottom: 5px;
-  right:49%;
+  right:;
   width:50px;
   height:50px;
   border-radius: 50%;
@@ -393,28 +378,14 @@ li {
   bottom:32px;
   pointer-events: auto;
   opacity:95%;
-}
-  
-  
-  
+}  
 }
 
 
 
 
 @media (max-width: 1200px) {
-  #circle {
-  position: fixed;
-  z-index: 1;
-  width: 32px;
-  height: 32px;
-  background-color: #fff;
-  border-radius: 50%;
-  pointer-events: none;
-  transition: background ease-in 10ms, box-shadow ease-in 150ms, transform ease-in 150ms;
-  transform: translate3d(0, 0, 0);
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-  }
+  
   body {
     background-color: none;
   }
@@ -629,7 +600,7 @@ li {
     background: white;
     position: fixed;
     bottom: 5px;
-    right: auto 0;
+    right: auto;
     width:30px;
     height:30px;
     border-radius: 50%;
