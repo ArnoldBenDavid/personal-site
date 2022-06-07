@@ -261,6 +261,7 @@ li {
   }
   
   h1 {
+    font-family: Verdana, sans-serif;
     font-weight: bold;
     font-size: 4.5vw;
   }
@@ -389,6 +390,7 @@ li {
   }
 
   h1 {
+    font-family: Verdana, sans-serif;
     font-weight: bold;
     font-size: 6vw;
   }
@@ -577,6 +579,7 @@ li {
   }
 
   h1 {
+    font-family: Verdana, sans-serif;
     font-weight: bold;
     font-size: 9vw;
   }
@@ -611,7 +614,7 @@ li {
 
 
 .links{
-  padding: 20vw ;
+  padding: 19vw ;
   padding-bottom: 29vw;
 }
 
@@ -625,7 +628,7 @@ li {
   background: white;
   position: fixed;
   bottom: 30px;
-  right:49.3%;
+  right:50%;
   width:30px;
   height:30px;
   border-radius: 50%;
