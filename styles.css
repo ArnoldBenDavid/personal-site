@@ -6,16 +6,16 @@ html{
 
 body {
   background-color: #FAFAFA;
-  
-  color: #000000;
   cursor: none;
 }
 
 
 hr {
-   width:100%
+   width: 100%
    opacity: 50% 
+   color: #black
 }
+
 
 h1 {
   font-weight: bold;
@@ -120,7 +120,6 @@ li {
 /*****************ID CELECTORS*******#X***************/
 #to-top{
   text-align: center;
-
 }
 
 #circle {
@@ -134,7 +133,6 @@ li {
   transition: background ease-in 10ms, box-shadow ease-in 150ms, transform ease-in 150ms;
   transform: translate3d(0, 0, 0);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-
 }
 
 #Hi{
