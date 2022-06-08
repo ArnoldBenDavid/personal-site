@@ -530,9 +530,11 @@ li {
 
  
   body {
-    
-    background-color: none;
+    padding: 10vw 0 ;
+    width: 100%;
+    background-color: green;
   }
+
 
   .social-menu ul {
     position: relative;
