@@ -512,6 +512,7 @@ li {
 
 @media (max-width: 769px) {
   body {
+    font-family: Verdana, sans-serif;
     background-color: none;
   }
 
@@ -651,4 +652,5 @@ li {
 }
   #circle{
     visibility:hidden;
+}
 }
