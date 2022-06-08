@@ -41,6 +41,16 @@ li {
   font-size: 1.2vw;
 }
 
+#to-top{
+  text-align: center;
+}
+
+center-to-top{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 .to-top {
   background: white;
   position: fixed;
@@ -111,9 +121,7 @@ li {
 }
 
 /*****************ID CELECTORS*******#X***************/
-#to-top{
-  text-align: center;
-}
+
 
 #circle {
   position: fixed;
