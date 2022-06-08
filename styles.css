@@ -11,8 +11,8 @@ body {
 
 hr {
    width: 100%
-   opacity: 50% 
-   color: black;7
+   opacity: 100% 
+   color: black;
 }
 
 h1 {
@@ -46,7 +46,7 @@ li {
 }
 
 .center-to-top{
-   position: relative;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
