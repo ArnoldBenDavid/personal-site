@@ -264,7 +264,6 @@ li {
   body {}
   
   h1 {
-    
     font-weight: bold;
     font-size: 4.5vw;
   }
@@ -395,7 +394,6 @@ li {
   body {}
 
   h1 {
-    font-family: Verdana, sans-serif;
     font-weight: bold;
     font-size: 6vw;
   }
@@ -523,7 +521,7 @@ li {
 
  
   body {
-    padding: 10vw 0 ;
+    padding: 8vw 0 ;
     width: 100%;
   }
 
