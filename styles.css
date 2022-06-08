@@ -607,7 +607,7 @@ li {
 
   p {
     font-size: 3.9vw;
-    padding: 3vw
+    padding: 3vw;
   }
 
   a {
@@ -616,6 +616,7 @@ li {
 
   li {
     font-size: 3.3vw;
+    padding:0 2vw;
   }
 
   #Arnold-Ben-David-profile-picure {
