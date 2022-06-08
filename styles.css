@@ -261,10 +261,7 @@ li {
 }
 
   
-  body {
-    
-    background-color: none;
-  }
+  body {}
   
   h1 {
     
@@ -395,10 +392,7 @@ li {
   scroll-behavior: smooth;
 }
 
-  
-  body {
-    background-color: none;
-  }
+  body {}
 
   h1 {
     font-family: Verdana, sans-serif;
@@ -531,7 +525,6 @@ li {
   body {
     padding: 10vw 0 ;
     width: 100%;
-    background-color: green;
   }
 
 
@@ -599,7 +592,6 @@ li {
   }
 
   h1 {
-    font-family: sans-serif;
     font-weight: bold;
     font-size: 9vw;
   }
@@ -634,7 +626,7 @@ li {
 
 
 .links{
-  padding: 16vw ;
+  padding: 10vw ;
   padding-bottom: 29vw;
 }
 
