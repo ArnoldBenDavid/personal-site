@@ -477,8 +477,8 @@ li {
   position: fixed;
   bottom: 50px;
   right:48%;
-  width:28PX;
-  height:28PX;
+  width:28px;
+  height:28px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -628,9 +628,9 @@ li {
   background: white;
   position: fixed;
   bottom: 50px;
-  right:45.vw;
+  right:45.9%;
   width:26px;
-  height:26PX;
+  height:26px;
   border-radius: 50%;
   display:flex;
   align-items: center;
