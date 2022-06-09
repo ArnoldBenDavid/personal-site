@@ -44,15 +44,16 @@ li {
  .to-top {
   background: white;
   position: fixed;
-  bottom: 50px;
-  right:50%;
+  top: 90%;
+  left: 50.243%;
+  transform: translate(-50%, -10%);
   width:50px;
   height:50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size:15px;
+  font-size:20px;
   color:red;
   text-decoration: none;
   opacity:0;
@@ -62,7 +63,7 @@ li {
 }
 
 .to-top.active {
-  bottom:50px;
+  bottom:32px;
   pointer-events: auto;
   opacity:0.5;
 }
@@ -346,15 +347,16 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  bottom: 50px;
-  right:47vw;
-  width:35px;
-  height:35px;
+  top: 90%;
+  left: 50.243%;
+  transform: translate(-50%, -10%);
+  width:50px;
+  height:50px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size:14px;
+  font-size:20px;
   color:red;
   text-decoration: none;
   opacity:0;
@@ -367,7 +369,7 @@ li {
   bottom:32px;
   pointer-events: auto;
   opacity:0.5;
-}  
+}
 }
 
 
@@ -475,10 +477,11 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  bottom: 50px;
-  right:48%;
-  width:28px;
-  height:28px;
+  top: 90%;
+  left: 50.1%;
+  transform: translate(-50%, -10%);
+  width:35px;
+  height:35px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -497,7 +500,6 @@ li {
   pointer-events: auto;
   opacity:0.5;
 }
-
 
 }
 
@@ -627,25 +629,26 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  bottom: 50px;
-  right:45.9%;
-  width:26px;
-  height:26px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  width:30px;
+  height:30px;
   border-radius: 50%;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size:12px;
+  font-size:10px;
   color:red;
   text-decoration: none;
   opacity:0;
   pointer-events: none;
   transition: all .4s;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
- }
+}
 
 .to-top.active {
-  bottom:50px;
+  bottom:32px;
   pointer-events: auto;
   opacity:0.5;
 }
