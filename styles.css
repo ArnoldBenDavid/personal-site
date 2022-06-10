@@ -475,16 +475,16 @@ li {
   }
 
   .links{
-    padding: 12vw ;
-    padding-bottom: 15vw;
+    padding: 19vw ;
+    padding-bottom: 19vw;
   }
   
   .to-top {
   background: white;
   position: fixed;
-  top: 90%;
+  top: 96%;
   left: 50%;
-  transform: translate(-10%, -50%);
+  transform: translate(-50%, -50%);
   width:35px;
   height:35px;
   border-radius: 50%;
@@ -501,7 +501,7 @@ li {
 }
 
 .to-top.active {
-  bottom:10%;
+  bottom:5%;
   pointer-events: auto;
   opacity:0.5;
 }
@@ -621,8 +621,8 @@ li {
 
   .links{
   padding: 9vw ;
-  padding-bottom: 30vw;
-  padding-top: 30vw;
+  padding-bottom: 26vw;
+  padding-top: 26vw;
     
   }
 
@@ -637,8 +637,8 @@ li {
   top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width:30px;
-  height:30px;
+  width:32px;
+  height:32px;
   border-radius: 50%;
   display: flex;
   align-items: center;
