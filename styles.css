@@ -655,7 +655,6 @@ li {
 }
 
 .to-top.active {
-  top: 32px;
   position: fixed;
   pointer-events: auto;
   opacity:0.5;
