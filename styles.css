@@ -276,6 +276,10 @@ li {
   li {
     font-size: 1.6vw;
   }
+  
+   .links{
+    padding-bottom: 12vw;
+    }
 
   .social-menu ul {
     position: relative;
@@ -343,12 +347,6 @@ li {
   #Arnold-Ben-David-profile-picure {
     width: 15vw;
   }
-  
-  .links{
- 
-  padding-bottom: 12vw;
-}
-
   
   
   .to-top {
