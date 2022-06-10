@@ -643,9 +643,9 @@ li {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   font-size:9px;
-  line-height:9px;
+  line-height:6px;
   color:red;
   text-decoration: none;
   opacity:0;
