@@ -637,8 +637,8 @@ li {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width:32px;
-  height:32px;
+  width:30px;
+  height:30px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -653,6 +653,7 @@ li {
 }
 
 .to-top.active {
+  position: fixed;
   bottom:10%;
   pointer-events: auto;
   opacity:0.5;
