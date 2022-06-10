@@ -620,7 +620,7 @@ li {
   }
 
   .links{
-  padding: 9vw ;
+  padding: 7vw ;
   padding-bottom: 19vw;
   padding-top: 19vw;
     
@@ -637,13 +637,13 @@ li {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width:30px;
-  height:30px;
+  width:32px;
+  height:32px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size:10px;
+  font-size:9px;
   color:red;
   text-decoration: none;
   opacity:0;
