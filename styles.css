@@ -548,8 +548,8 @@ li {
   .social-menu ul li a {
     position: relative;
     display: grid;
-    width: 11vw;
-    height: 11vw;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     background-color: white;
     text-align: center;
@@ -621,8 +621,8 @@ li {
 
   .links{
   padding: 9vw ;
-  padding-bottom: 26vw;
-  padding-top: 26vw;
+  padding-bottom: 19vw;
+  padding-top: 19vw;
     
   }
 
@@ -634,7 +634,7 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  top: 95%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:32px;
@@ -653,7 +653,7 @@ li {
 }
 
 .to-top.active {
-  bottom:5%;
+  bottom:10%;
   pointer-events: auto;
   opacity:0.5;
 }
