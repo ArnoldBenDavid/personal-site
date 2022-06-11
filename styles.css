@@ -636,7 +636,7 @@ li {
   position: fixed;
   top: 90%;
   left: 50%;
-  transform: translate(-50%, -10%);
+  transform: translate(-50%, -50%);
   width:26px;
   height:26px;
   border-radius: 50%;
