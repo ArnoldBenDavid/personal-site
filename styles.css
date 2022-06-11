@@ -655,9 +655,9 @@ li {
 
 .to-top.active {
   position: fixed;
-  bottom:32px;
+  bottom:10%;
   pointer-events: auto;
-  opacity:0.5;
+  opacity:1;
 }
   
   #circle{
