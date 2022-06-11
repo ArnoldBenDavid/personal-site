@@ -645,7 +645,7 @@ li {
   font-size:9px;
   color:red;
   text-decoration: none;
-  opacity:100;
+  opacity:0;
   pointer-events: none;
   transition: all .4s;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
