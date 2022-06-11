@@ -518,7 +518,6 @@ li {
 
  
   body {
-    padding: 8vw 0 ;
     width: 100%;
   }
 
@@ -615,13 +614,13 @@ li {
 
   #Arnold-Ben-David-profile-picure {
     width: 35vw;
-    padding-top: 8vw;
+    padding-top: 16vw;
     padding-bottom: 5vw
   }
 
   .links{
   padding: 7vw ;
-  padding-bottom: 19vw;
+  padding-bottom: 30vw;
   padding-top: 19vw;
     
   }
