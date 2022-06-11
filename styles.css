@@ -638,8 +638,8 @@ li {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -10%);
-  width:32px;
-  height:32px;
+  width:26px;
+  height:26px;
   border-radius: 50%;
   display: flex;
   align-items: center;
