@@ -637,7 +637,7 @@ li {
   position: fixed;
   top: 90%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
   width:32px;
   height:32px;
   border-radius: 50%;
@@ -655,6 +655,7 @@ li {
 
 .to-top.active {
   position: fixed;
+  bottom:32px;
   pointer-events: auto;
   opacity:0.5;
 }
