@@ -653,6 +653,11 @@ li {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
+  .to-top.active {
+  position: fixed  
+  bottom:10%;
+  pointer-events: auto;
+  opacity:0.5;
 
   
   #circle{
