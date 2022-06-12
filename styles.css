@@ -10,8 +10,8 @@ body {
 }
 
 hr {
-   width: 100%
-   opacity: 100% 
+   width: 100%;
+   opacity: 100%; 
    color: black;
 }
 
@@ -29,7 +29,7 @@ h3 {
 
 p {
   font-size: 2vw;
-  padding: 1vw
+  padding: 1vw;
 }
 
 a {
@@ -78,7 +78,7 @@ li {
   border-radius: 100px;
   border-style: none;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.5);
-  width: 30%
+  width:30%;
 }
 
 .btn:hover{
@@ -86,7 +86,7 @@ li {
 }
 
 .container-fluid {
-  padding: 1%
+  padding: 1%;
 }
 
 .column {
@@ -96,23 +96,23 @@ li {
 .synopsis {}
 
 .profili-picture {
-  padding: 3%
+  padding: 3%;
 }
 
 .DS {
   display: inline-block;
   position: static;
-  padding: 5vw
+  padding: 5vw;
 }
 
 .Eco-Electric {
   display: inline-block;
-  padding: 5vw
+  padding: 5vw;
 }
 
 .VTOL-IL {
   display: inline-block;
-  padding: 5vw
+  padding: 5vw;
 }
 
 /*****************ID CELECTORS*******#X***************/
@@ -146,7 +146,7 @@ li {
 
 #Conceptual-Thinking {
   text-align: center;
-  font-size: 3vw
+  font-size: 3vw;
 }
 
 #Arnold-Ben-David-profile-picure {
@@ -164,7 +164,7 @@ li {
 #Experience {}
 
 #cta {
-  padding: 3%
+  padding: 3%;
 }
 
 #View-Portfolio {
@@ -266,7 +266,7 @@ li {
 
   p {
     font-size: 2.5vw;
-    padding: 1.9vw
+    padding: 1.9vw;
   }
 
   a {
@@ -404,7 +404,7 @@ li {
 
   p {
     font-size: 3vw;
-    padding: 1.9vw
+    padding: 1.9vw;
   }
 
   li {
@@ -615,7 +615,7 @@ li {
   #Arnold-Ben-David-profile-picure {
     width: 35vw;
     padding-top: 16vw;
-    padding-bottom: 5vw
+    padding-bottom: 5vw;
   }
 
   .links{
@@ -627,7 +627,7 @@ li {
 
   .btn {
    margin: auto;
-   width: 49%
+   width: 49%;
   }
 
   .to-top {
