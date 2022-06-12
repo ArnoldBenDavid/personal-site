@@ -620,7 +620,7 @@ li {
 
   .links{
   padding: 7vw ;
-  padding-bottom: 30vw;
+  padding-bottom: 33vw;
   padding-top: 19vw;
     
   }
@@ -633,7 +633,7 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  bottom:12%;
+  bottom:15%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:26px;
@@ -653,7 +653,7 @@ li {
 
   .to-top.active {
   position: fixed;
-  bottom:12%;
+  bottom:15%;
   pointer-events: auto;
   opacity:0.5;
   }
