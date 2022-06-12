@@ -44,7 +44,7 @@ li {
 .to-top {
   background: white;
   position: fixed;
-  top: 90%;
+  bottom:10%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:50px;
@@ -352,7 +352,7 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  top: 90%;
+  bottom:10%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:45px;
@@ -476,13 +476,13 @@ li {
 
   .links{
     padding: 19vw ;
-    padding-bottom: 19vw;
+    padding-bottom: 25vw;
   }
   
   .to-top {
   background: white;
   position: fixed;
-  top: 93%;
+  bottom:10%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:35px;
@@ -501,7 +501,7 @@ li {
 }
 
 .to-top.active {
-  bottom:7%;
+  bottom:10%;
   pointer-events: auto;
   opacity:0.5;
 }
@@ -620,7 +620,7 @@ li {
 
   .links{
   padding: 7vw ;
-  padding-bottom: 33vw;
+  padding-bottom: 39vw;
   padding-top: 19vw;
     
   }
@@ -633,7 +633,7 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  bottom:15%;
+  bottom:20%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:26px;
@@ -653,7 +653,7 @@ li {
 
   .to-top.active {
   position: fixed;
-  bottom:15%;
+  bottom:20%;
   pointer-events: auto;
   opacity:0.5;
   }
