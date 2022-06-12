@@ -44,7 +44,7 @@ li {
 .to-top {
   background: white;
   position: fixed;
-  bottom:10vw;
+  bottom:3vw;
   left: 50%;
   transform: translate(-50%, -50%);
   width:50px;
@@ -63,7 +63,7 @@ li {
 }
 
 .to-top.active {
-  bottom:10vw;
+  bottom:3vw;
   pointer-events: auto;
   opacity:0.5;
 }
@@ -238,7 +238,7 @@ li {
 
 .links{
   padding: 9vw ;
-  padding-bottom: 9vw;
+  padding-bottom: 12vw;
 }
 
 /****************************media query*******************************/
