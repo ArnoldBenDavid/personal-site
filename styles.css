@@ -513,8 +513,8 @@ li {
 @media (max-width: 769px) {
   
   html{
-  scroll-behavior: smooth;
-}
+   scroll-behavior: smooth;
+  }
 
  
   body {
@@ -633,7 +633,7 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  bottom:20%;
+  bottom:30%;
   left: 50%;
   transform: translate(-50%, -50%);
   width:26px;
@@ -653,7 +653,7 @@ li {
 
   .to-top.active {
   position: fixed;
-  bottom:20%;
+  bottom:30%;
   pointer-events: auto;
   opacity:0.5;
   }
