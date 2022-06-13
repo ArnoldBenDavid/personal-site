@@ -626,8 +626,8 @@ li {
   .to-top {
   background: white;
   position: fixed;
-  bottom:60px;
   left: 50%;
+  bottom:50px;
   transform: translate(-50%, -50%);
   width:26px;
   height:26px;
@@ -645,8 +645,7 @@ li {
   }
 
   .to-top.active {
-  position: fixed;
-  bottom:60px;
+  bottom:50px;
   pointer-events: auto;
   opacity:0.5;
   }
