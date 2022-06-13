@@ -613,7 +613,7 @@ li {
 
   .links{
   padding: 7vw ;
-  padding-bottom: 39vw;
+  padding-bottom: 36vw;
   padding-top: 19vw;
     
   }
@@ -651,8 +651,6 @@ li {
   opacity:0.5;
   }
 
-
-  
   #circle{
     visibility:hidden;
 }
