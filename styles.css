@@ -155,7 +155,7 @@ li {
 .to-top {
   background: white;
   position: fixed;
-  bottom: 15%;
+  bottom: 24%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50px;
@@ -174,7 +174,7 @@ li {
 }
 
 .to-top.active {
-  bottom: 15%;
+  bottom: 24%;
   pointer-events: auto;
   opacity: 0.5;
 }
