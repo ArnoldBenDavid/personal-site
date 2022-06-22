@@ -147,7 +147,7 @@ li {
 .to-top {
   background: white;
   position: fixed;
-  bottom: 7.5vw;
+  bottom: 5vw;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50px;
@@ -166,7 +166,7 @@ li {
 }
 
 .to-top.active {
-  bottom: 7.5vw;
+  bottom: 5vw;
   pointer-events: auto;
   opacity: 0.5;
 }
@@ -209,7 +209,7 @@ li {
 
 #Conceptual-Thinking {
   text-align: center;
-  font-size: 1.5vw
+  font-size: 1vw
 }
 
 #circle {
