@@ -136,20 +136,12 @@ li {
 
 .Hi {}
 
-.DS {
-  display: inline-block;
-  position: static;
-  padding: 5vw
+#DS{
+  width: 33.3vw;
 }
 
-.Eco-Electric {
-  display: inline-block;
-  padding: 5vw
-}
-
-.VTOL-IL {
-  display: inline-block;
-  padding: 5vw
+#EE{
+  width: 33.3vw;
 }
 
 .to-top {
