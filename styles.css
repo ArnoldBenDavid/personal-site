@@ -144,6 +144,10 @@ li {
   width: 33.3vw;
 }
 
+#VTOL.IL{
+   width: 33.3vw;
+}
+
 .to-top {
   background: white;
   position: fixed;
