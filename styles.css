@@ -137,19 +137,33 @@ li {
 .Hi {}
 
 #DS{
-  width: 33.3vw;
-  padding: 10vw;
+  width: 50w;
+  padding: 9vw;
 }
 
 #EE{
-  width: 33.3vw;
-  padding: 10vw;
+  width: 50w;
+  padding: 9vw;
 }
 
 #VTOL-IL{
-   width: 30vw;
-  padding: 10vw;
+   width: 50w;
+  padding: 9vw;
 }
+
+.DS{
+  
+}
+
+.Eco-Electric{
+
+}
+
+
+.VTOL-IL{
+  
+}
+
 
 .to-top {
   background: white;
@@ -207,7 +221,7 @@ li {
 
 #portfolio-logos {
   text-align: center;
-  padding: 10vw;
+ 
 }
 
 #welcom {
