@@ -138,14 +138,17 @@ li {
 
 #DS{
   width: 33.3vw;
+  padding: 10vw;
 }
 
 #EE{
   width: 33.3vw;
+  padding: 10vw;
 }
 
 #VTOL-IL{
    width: 30vw;
+  padding: 10vw;
 }
 
 .to-top {
@@ -204,6 +207,7 @@ li {
 
 #portfolio-logos {
   text-align: center;
+  padding: 10vw;
 }
 
 #welcom {
